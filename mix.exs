@@ -40,6 +40,7 @@ defmodule CrunchBase.Mixfile do
   defp deps do [
     {:httpoison, ">= 0.0.0"},
     {:poison, ">= 1.0.0"},
+    {:decimal, ">= 0.0.0"},
 
     # Testing
     {:excoveralls, "~> 0.4", only: :test},
